@@ -172,7 +172,7 @@ export default function CardProduto({
           "
         >
           <ShoppingBag className="w-4 h-4" />
-          Adicionar ao carrinho
+          Add ao Carrinho
         </button>
 
         <button
