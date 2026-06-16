@@ -2,6 +2,13 @@ import Carrossel from "@/components/Carrossel"
 import CardProduto from "@/components/CardProduto"
 import produtos from "../../produtos.json"
 import { Heart, ShieldCheck, Truck, MessageCircle, BadgeCheck } from "lucide-react"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 export default function Home() {
 
@@ -14,9 +21,9 @@ export default function Home() {
       <Carrossel />
 
       {/* Cabeçalho da Seção de Destaque */}
-      <div className="text-center mt-14 mb-10 px-4">
+      <div className="text-center mt-6 sm:mt-10 mb-8 sm:mb-10 px-4">
         <Heart className="w-6 h-6 mx-auto mb-3 text-[#c98e8e] stroke-[1.5]" />
-        <h1 className="text-4xl font-serif font-bold text-[#733E43] tracking-tight">
+        <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#733E43] tracking-tight">
           Produtos em destaque
         </h1>
         <p className="text-[#a08080] mt-2 text-sm">
@@ -24,21 +31,32 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Grid Responsivo para os Cards:
-          1 coluna no celular | 2 colunas no tablet | 3 colunas em telas grandes
-      */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
-        {produtosEmDestaque.map((produto) => (
-          <CardProduto
-            key={produto.id}
-            id={produto.id}
-            title={produto.title}
-            description={produto.description}
-            price={produto.price}
-            imageSrc={produto.imageSrc}
-            destaque={produto.destaque}
-          />
-        ))}
+      {/* Carrossel de Produtos em Destaque */}
+      <div className="max-w-6xl mx-auto px-12 sm:px-16">
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full relative"
+        >
+          <CarouselContent className="-ml-4 py-4">
+            {produtosEmDestaque.map((produto) => (
+              <CarouselItem key={produto.id} className="pl-4 basis-1/2 sm:basis-1/3 lg:basis-1/4">
+                <CardProduto
+                  id={produto.id}
+                  title={produto.title}
+                  description={produto.description}
+                  price={produto.price}
+                  imageSrc={produto.imageSrc}
+                  destaque={produto.destaque}
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="absolute -left-8 sm:-left-12 border-[#EADDD8] text-[#8B5E63] hover:bg-[#F8ECE8]" />
+          <CarouselNext className="absolute -right-8 sm:-right-12 border-[#EADDD8] text-[#8B5E63] hover:bg-[#F8ECE8]" />
+        </Carousel>
       </div>
 
       {/* Barra de Diferenciais */}

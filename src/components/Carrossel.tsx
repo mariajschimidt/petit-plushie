@@ -29,8 +29,8 @@ export default function Carrossel() {
   )
 
   return (
-    <section className="w-full py-6 md:py-10 bg-[#FCFAF8]">
-      <div className="max-w-7xl mx-auto px-4 md:px-6">
+    <section className="w-full pt-0 pb-4 sm:py-6 md:py-10 bg-[#FCFAF8]">
+      <div className="max-w-7xl mx-auto px-0 sm:px-4 md:px-6">
         <Carousel
           plugins={[plugin.current]}
           className="relative"
@@ -44,7 +44,8 @@ export default function Carrossel() {
                   className="
                     relative
                     overflow-hidden
-                    rounded-[32px]
+                    rounded-none
+                    sm:rounded-[32px]
                     shadow-[0_10px_40px_rgba(0,0,0,0.06)]
                     h-[220px]
                     sm:h-[320px]
@@ -71,9 +72,12 @@ export default function Carrossel() {
 
           <CarouselPrevious
             className="
-              left-6
-              h-11
-              w-11
+              left-2
+              sm:left-6
+              h-8
+              w-8
+              sm:h-11
+              sm:w-11
               border-0
               bg-white/90
               backdrop-blur-md
@@ -84,9 +88,12 @@ export default function Carrossel() {
 
           <CarouselNext
             className="
-              right-6
-              h-11
-              w-11
+              right-2
+              sm:right-6
+              h-8
+              w-8
+              sm:h-11
+              sm:w-11
               border-0
               bg-white/90
               backdrop-blur-md

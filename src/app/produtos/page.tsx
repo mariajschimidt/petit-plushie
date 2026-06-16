@@ -8,7 +8,7 @@ export default function Produtos() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 py-20 text-center">
+        <div className="max-w-7xl mx-auto px-6 py-8 sm:py-20 text-center">
 
           <div className="flex justify-center mb-5">
             <div className="bg-[#F8ECE8] p-3 rounded-full">
@@ -144,11 +144,11 @@ export default function Produtos() {
         <div
           className="
             grid
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3
-            xl:grid-cols-4
-            gap-8
+            grid-cols-2
+            sm:grid-cols-3
+            lg:grid-cols-4
+            gap-4
+            sm:gap-8
           "
         >
           {produtos.map((produto) => (
