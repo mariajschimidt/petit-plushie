@@ -53,7 +53,7 @@ export default function CardProduto({
       </div>
 
       {/* Informações */}
-      <div className="flex flex-col items-center text-center gap-1 sm:gap-2 flex-1">
+      <div className="flex flex-col items-center text-center gap-1 sm:gap-2 flex-1 w-full">
         <h2 className="text-sm sm:text-lg font-bold text-[#733E43] leading-snug line-clamp-2 min-h-[40px] sm:min-h-[50px]">
           {title}
         </h2>
@@ -62,7 +62,8 @@ export default function CardProduto({
           {description}
         </p>
 
-        <p className="text-base sm:text-2xl font-bold text-[#733E43] mt-0.5 sm:mt-1">
+        {/* mt-auto empurra o preço e tudo abaixo dele rigidamente para o fundo do bloco flex */}
+        <p className="text-base sm:text-2xl font-bold text-[#733E43] mt-auto pt-1">
           {formattedPrice}
         </p>
       </div>
