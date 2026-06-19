@@ -5,7 +5,8 @@
     "description": "Pelúcias Valentine's Day em tecido macio, detalhes pastel em conjunto. O presente perfeito para expressar seu amor e carinho. Ideal para todas as idades, este conjunto de pelúcias é um símbolo adorável de afeto e ternura.",
     "price": 89.90,
     "imageSrc": "/produtos/Marshmallow.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Temáticos"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Com un grande caroço de camurça e perninhas de veludo cotelê, este abacate sorridente adora espalhar positividade. O companheiro perfeito para a decoração da cozinha ou para abraçar.",
     "price": 119.90,
     "imageSrc": "/produtos/abacatefeliz.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Comidinhas & Bebidas"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "Uma pelúcia folheada de pura fofura! Com acabamento dourado ultra macio e um sorriso costurado que vai deixar suas manhãs muito mais aconchegantes.",
     "price": 94.90,
     "imageSrc": "/produtos/croissantamicci.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Comidinhas & Bebidas"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Com oito tentáculos elásticos e texturizados, o Polvo Odell dá os melhores abraços do oceano. Feito em uma cor rosa antigo super elegante e pelo extremamente sedoso.",
     "price": 189.90,
     "imageSrc": "/produtos/octopus.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Animais"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "description": "Um clássico atemporal. Este coelhinho tem orelhas longas e caídas, patinhas macias e o pelo mais fofo que você já sentiu. Perfeito para recém-nascidos e colecionadores.",
     "price": 139.90,
     "imageSrc": "/produtos/bashfulcreambunny.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Animais"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "description": "Quem disse que cactos espetam? Esta pelúcia traz um cacto texturizado em um vasinho de feltro marrom, com um sorriso acolhedor e raminhos floridos no topo.",
     "price": 129.90,
     "imageSrc": "/produtos/cacto-vaso.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Botânica"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "description": "A dose diária de fofura que você precisava. Uma mini xícara de café com textura de linho, perninhas de cordão e um topo de espuma aveludada.",
     "price": 99.90,
     "imageSrc": "/produtos/amuseablesespressocup.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Comidinhas & Bebidas"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "description": "Diretamente de um conto de fadas, este urso tem uma fantasia vibrante do sol e uma base texturizada irresistível ao toque.",
     "price": 189.90,
     "imageSrc": "/produtos/bearsunoutfit.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Animais"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "description": "Um dragãozinho branco deitado, feito para tirar sonecas. Suas asas e espinhos têm um brilho sutil em tecido texturizado. Um toque de magia no quarto.",
     "price": 219.90,
     "imageSrc": "/produtos/snowdragon.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Animais"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "description": "Celebre os momentos doces com esta fatia de bolo de pelúcia. Camadas de creme macio, umaveludada cobertura branca e uma frutinha delicada no topo.",
     "price": 124.90,
     "imageSrc": "/produtos/boloaniversario.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Temáticos"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "description": "Com uma barriga de veludo cotelê texturizado e dorso azul-marinho de pelúcia premium, esta baleia traz a tranquilidade do fundo do mar para os seus braços.",
     "price": 369.90,
     "imageSrc": "/produtos/gobfreywhaleshark.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Animais"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "description": "O café da manhã nunca foi tão fofo. Uma fatia de pão de pelúcia perfeitamente tostada, carregando um ovo estrelado de textura macia e bochechas rosadas.",
     "price": 78.90,
     "imageSrc": "/produtos/eggontoast.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Comidinhas & Bebidas"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "description": "Um urso clássico com um toque moderno e estiloso. Corpo gordinho, pelos desgrenhados super charmosos e um peso reconfortante na base para sentar perfeitamente na prateleira.",
     "price": 189.90,
     "imageSrc": "/produtos/bartholomewbearseafareroutfit.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Animais"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "description": "Um rolinho de pelúcia inspirado no clássico sushi californiano, com detalhes em tecido texturizado que imitam o arroz, o abacate e o kani. Perfeito para os amantes de comida japonesa e pelúcias fofas.",
     "price": 99.90,
     "imageSrc": "/produtos/codhicalifornianroll.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Comidinhas & Bebidas"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "description": "Este gatinho preto e branco vem encolhido em sua própria caminha de pelúcia texturizada. O companheiro ideal, calmo e silencioso para a hora de dormir.",
     "price": 104.90,
     "imageSrc": "/produtos/spookipawscat.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Animais"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "description": "Um girassol que nunca murcha! Pétalas amarelo-ouro de camurça envolvem um centro fofinho de textura aveludada. Perfeito para iluminar qualquer ambiente.",
     "price": 92.90,
     "imageSrc": "/produtos/sunflower.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Botânica"
   },
   {
     "id": 17,
@@ -133,23 +149,26 @@
     "description": "Com seu formato de amendoim e braços abertos prontos para um abraço, este pinguim vintage de pelo cinza e branco derrete corações por onde passa.",
     "price": 159.90,
     "imageSrc": "/produtos/peanutpenguin.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Animais"
   },
   {
     "id": 18,
     "title": "Brócolis Divertido",
     "description": "Comer vegetais nunca foi tão divertido! Este brócolis tem uma copa de pelos cacheados e crespos super gostosos de apertar e um caule firme com um rostinho simpático.",
     "price": 89.90,
-    "imageSrc": "/produtos/broccoli.png",
-    "destaque": false
+    "imageSrc": "/produtos/Comidinhas & Bebidas",
+    "destaque": false,
+    "categoria": "Comidinhas & Bebidas"
   },
   {
     "id": 19,
     "title": "Pelicano Keli",
     "description": "Com um bico grande e macio, este pelicano de pelúcia é perfeito para abraçar. Seu corpo redondo e penas texturizadas trazem um toque de charme costeiro para qualquer espaço.",
-    "price": 74.90,
+    "price": 194.90,
     "imageSrc": "/produtos/kelipelican.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Animais"
   },
   {
     "id": 20,
@@ -157,6 +176,7 @@
     "description": "Um limãozinho super macio com textura que imita a casca real da fruta, finalizado com uma folha verde aveludada no topo. Puro charme e frescor em formato de pelúcia.",
     "price": 84.90,
     "imageSrc": "/produtos/lemon.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Comidinhas & Bebidas"
   }
 ]
